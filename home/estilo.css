@@ -41,8 +41,8 @@
     color: #f0f3f599
 }
 
-body {
-background: url(imagens/parede.jpeg) no-repeat top center;
+#podpah {
+background: url(../imagem/parede.jpg) no-repeat top center;
 background-size: cover;
 background-attachment: fixed;
 
