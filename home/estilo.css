@@ -2,35 +2,62 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family= Cormorant +Garamond:wght@700 & display=swap');
 
-
+/*NAV TELA HOME */
 #menu_home{
-    background-color:rgba(0, 0, 0, 0.842);
-    text-align: center;
-    padding: 10px;
     
+    height: 80px;
+    width: 100%;
+    background-color: rgb(7, 74, 173);
 }
 
 
-#menu_home > a{
-    font-family: 'Quicksand', sans-serif;
-    color: rgb(255, 221, 30);
-    padding: 10px;
-    border-radius: 5px;
+#menu_home > ul{
+    float: right;
+    margin-right: 40px;
+}
+
+
+#menu_home ul > li{
     text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 70px;
+
+}
+
+
+.a_home{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.logo_home{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
     font-weight: bold;
-    transition-duration: 0.5s;
-    margin: 10px;
-    
+    color: white;
+    padding: 0 100px;
+    line-height: 70px;
 }
 
 
-#menu_home > a:hover{
-    background-color:rgb(160, 3, 3);
-    
-}
+#cadastro_home, a:hover{
+    border: 1px solid white;
+    transition: .4s;
 
+}
 
 /* CSS DAS PAGINAS MENU,TURMAS,NEWS E CRIADORES*/
 /*PODCAST*/
