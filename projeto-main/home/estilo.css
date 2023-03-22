@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Teko:wght@500&display=swap');
+
+/*NAV TELA HOME */
+#menu_home{
+    
+    height: 80px;
+    width: 100%;
+    background-color: rgb(7, 74, 173);
+}
+
+
+#menu_home > ul{
+    float: right;
+    margin-right: 40px;
+}
+
+
+#menu_home ul > li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 70px;
+
+}
+
+
+.a_home{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.logo_home{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 70px;
+}
+
+
+#cadastro_home, a:hover{
+    border: 1px solid white;
+    transition: .4s;
+
+}
+
+/* CSS DAS PAGINAS MENU,TURMAS,NEWS E CRIADORES*/
+/*PODCAST*/
+ *{
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    color: #f0f3f599
+}
+
+#podpah {
+background: url(../imagem/parede.jpg) no-repeat top center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+a {
+    color: #cdcdcd;
+}
+
+/* daqui em diante é para o menu */
+.menu .menu-faketrigger {
+    position: absolute;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;  
+    opacity: 0; 
+}
+
+.menu .menu-faketrigger:checked~ul {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.menu .menu-lines {
+    position: absolute;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+}
+
+.menu .menu-lines span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #cdcdcd;
+    border-radius: 3px;
+    transition: all ease ,2s;
+}
+
+.menu .menu-faketrigger:checked~.menu-lines span {
+    background-color: aqua;
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(1) {
+
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.25);
+
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(2) {
+    
+    opacity: 0;
+
+}
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(3) {
+ 
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.25);
+
+}
+
+.menu ul {
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 300;
+    height:calc(100vh - 100px);
+    padding-top: 100px;
+    background-color: #000000;
+    margin-left: -300px;
+    transition: all ease .2s;
+}
+
+.menu .menu-faketrigger:checked ~ ul{
+    margin-left: 0;
+}
+
+.menu ul li {
+   padding: 10px 30px; 
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+    
+/* até aqui faz parte do CSS do menu, pelo amor
+de Deus não altere nada, se não vai ser um cu pra conferir */
