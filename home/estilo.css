@@ -29,7 +29,13 @@
     line-height: 70px;
 
 }
-
+.box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
 
 .a_home{
     color: white;
@@ -162,3 +168,31 @@ a {
     
 /* até aqui faz parte do CSS do menu, pelo amor
 de Deus não altere nada, se não vai ser um cu pra conferir */
+
+/*css da box line se alterar vai conhecer jesus*/
+.container {
+    text-align:center;
+    
+  }
+  
+  .kyn_box {
+    display: inline-block;
+    width: 355px;
+    height: 355px;
+    background-color:#0e758f;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border-style: groove;
+    text-decoration: none;
+    color: #0a6beb;
+    
+   
+
+  }
+  .kyn_logo_criadoes{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+  }
+    /*css da box line da pagina criadores, se mexer vai conversar com jesus */
