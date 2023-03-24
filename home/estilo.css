@@ -357,3 +357,33 @@ form > .victor_campocad{
 
 }
 /* aqui termina a pagina cadastro*/
+
+/* inicio css leo_noticias */
+
+.leo_logo{
+height: 150px;
+width: 250px;
+text-align: center;
+}
+
+.leo_news_cabecalho{
+    background-color: #2a2a42;
+}
+
+.conteudo{
+    background-color: #373434;
+}
+
+.leo_box {
+    padding:5px;
+    display:inline-block;
+    width: 355px;
+    height: 355px;
+    background-color: #000000;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border-style: groove;
+  }
+
+  /* final css leo_noticias */
