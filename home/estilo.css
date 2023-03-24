@@ -1,3 +1,4 @@
+@charset "utf-8";
 *{
     padding: 0px;
     margin: 0px;
@@ -196,3 +197,163 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     height: 30px;
   }
     /*css da box line da pagina criadores, se mexer vai conversar com jesus */
+
+
+/*AQUI COMEÇA A PAGINA DE CADASTRO*/
+#victor{
+    background-color: rgb(7, 74, 173);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.victor_main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 350px;
+    height: 570px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
+
+}
+
+
+ #victor_cadastro{
+    background: rgb(41, 139, 230) url(../imagem/logo_ficr.jpeg) no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin-left: 60px;
+}
+
+
+#victor_formulario{
+    display: block;
+    padding: 10px;
+
+}
+
+
+#victor_formulario > h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
+
+
+#victor_formulario > p{
+    font-size: 0.8em;
+    color: black;
+
+}
+
+
+form > .victor_entrar {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+form > .victor_entrar:hover{
+    background-color: rgb(98, 153, 255);
+}
+
+
+form > .victor_cadastrese {
+    margin-top: 8px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+form > .victor_cadastrese:hover{
+    background-color: rgb(122, 169, 255);
+}
+
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.308);
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: rgb(30, 98, 245);
+    
+}
+
+
+form > a.botao:hover{
+    background-color:rgba(100, 148, 237, 0.404);
+}
+
+
+form > .victor_campocad{
+    background-color: rgb(81, 121, 194);
+    display:block;
+    width: 100%;
+    height: 37px;
+    border-radius: 8px;
+    margin: 6px 0px;
+    border: 2px solid lightblue;
+    
+    
+}
+
+
+.victor_campocad >span{
+    color: white;
+    font-size: 2em;
+    width: 42px;
+    padding: 5px;
+
+}
+
+
+.victor_campocad > input{
+    background-color: rgb(182, 208, 247);
+    font-size: 1em;
+    width: calc(100% - 21%);
+    height: 100%;
+    transform: translateY(-15px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+
+
+}
+/* aqui termina a pagina cadastro*/
