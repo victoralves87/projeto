@@ -213,6 +213,10 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026f6",endColorstr="#0925f0",GradientType=1);
 
   }
+  .cabecalho_criadores {
+    position: fixed;
+  }
+    
     /*css da box line da pagina criadores, se mexer vai conversar com jesus */
 
 
