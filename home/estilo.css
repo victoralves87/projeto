@@ -213,13 +213,22 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026f6",endColorstr="#0925f0",GradientType=1);
 
   }
+  
+.modo-escuro body {
+    background-color: black;
+    background: rgb(0,38,246);
+    background: -moz-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    background: linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026f6",endColorstr="#0925f0",GradientType=1);
+  }
   .cabecalho_criadores {
     position: fixed;
   }
     
   .footer_criadores {
-    background-color: #333;
-    color: #fff;
+    background-color: #0a0a0a;
+    color: #000000;
     padding: 20px;
     text-align: center;
   }
@@ -240,7 +249,7 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1px; 
+    height: 1%; 
     background: rgb(0,38,246);
     background: -moz-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
