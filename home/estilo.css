@@ -177,7 +177,7 @@ a {
 /* até aqui faz parte do CSS do menu, pelo amor
 de Deus não altere nada, se não vai ser um cu pra conferir */
 
-/*css da box line se alterar vai conhecer jesus*/
+/* AQUI  COMEÇA O css da box line se alterar vai conhecer jesus*/
 .container {
     text-align:justify;
     
@@ -217,7 +217,40 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     position: fixed;
   }
     
-    /*css da box line da pagina criadores, se mexer vai conversar com jesus */
+  .footer_criadores {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* definindo a altura mínima da página */
+  body {
+    position: relative;
+    min-height: 100vh; 
+  }
+  /* definindo a altura mínima da página */
+
+/* definindo a altura do footer */
+  .container {
+    padding-bottom: 50px; 
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px; 
+    background: rgb(0,38,246);
+    background: -moz-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    background: linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026f6",endColorstr="#0925f0",GradientType=1);
+    padding: 20px;
+    text-align: center;
+  }
+  /* definindo a altura do footer */
+    /*AQUI TERMINA O css da box line da pagina criadores, se mexer vai conversar com jesus */
 
 
 /*AQUI COMEÇA A PAGINA DE CADASTRO*/
