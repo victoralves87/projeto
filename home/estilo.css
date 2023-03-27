@@ -182,7 +182,7 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     text-align:justify;
     
   }
-  
+  /* CCS DAS BOXERS LINES*/
   .kyn_box {
     display:inline-block;
     width: 355px;
@@ -194,7 +194,7 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     border-style: groove;
     text-decoration: underline;
     color: #0a6beb;
-
+/* CCS DAS BOXERS LINES*/
   }
   .kyn_logo_criadoes{
     height: 150px;
@@ -222,8 +222,13 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     background: linear-gradient(90deg, rgba(0,38,246,1) 11%, rgba(22,229,209,1) 51%, rgba(9,37,240,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026f6",endColorstr="#0925f0",GradientType=1);
   }
-  .cabecalho_criadores {
-    position: fixed;
+
+  /*  codigo do cabecalho  CRIADORES*/
+  .cabecalho_criadores{
+    display: flex;
+    color: #000000;
+    align-items: center;
+/*fim do cabecalho CRIADORES*/
   }
     
   .footer_criadores {
@@ -259,6 +264,7 @@ de Deus não altere nada, se não vai ser um cu pra conferir */
     text-align: center;
   }
   /* definindo a altura do footer */
+  
     /*AQUI TERMINA O css da box line da pagina criadores, se mexer vai conversar com jesus */
 
 
