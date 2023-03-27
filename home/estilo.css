@@ -455,12 +455,46 @@ cursor: pointer;
     text-align: center;
 }
 
-.container{
-    display: flex;
-    color: #000000;
-    align-items: center;
+.main{
+    display: table;
+    
+
     
 }
+.linha{
+    display: table-row ;
+    
+}
+.main ul{
+    margin-top: 20px;
+
+}
+
+.main ul li{
+    float: left;
+    display: table-cell;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 400px;
+    
+}
+
+.main ul li img{
+    width: 400px;
+    
+}
+
+h2{
+    color: #000000;
+}
+
+li{
+    color: #000000;
+}
+
+
 
 
   /* final css leo_noticias */
